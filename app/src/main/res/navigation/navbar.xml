@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navbar"
+    app:startDestination="@id/berita">
+
+    <fragment
+        android:id="@+id/faskes"
+        android:name="com.example.if3210_2022_android_33.Faskes"
+        android:label="fragment_faskes"
+        tools:layout="@layout/fragment_faskes" />
+    <fragment
+        android:id="@+id/bookmark"
+        android:name="com.example.if3210_2022_android_33.Bookmark"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" />
+    <fragment
+        android:id="@+id/berita"
+        android:name="com.example.if3210_2022_android_33.Berita"
+        android:label="fragment_berita"
+        tools:layout="@layout/fragment_berita" />
+</navigation>
